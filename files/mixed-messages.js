@@ -6,5 +6,5 @@ function mixedMessage(){
     let randQuote = quote[Math.floor(Math.random()*quote.length)]
     let ranAuthor = author[Math.floor(Math.random()*author.length)]
     let randDisclaimer = disclaimer[Math.floor(Math.random()*disclaimer.length)]
-    return `"${randQuote}." - ${ranAuthor}... ${randDisclaimer}`
+    document.getElementById('message').innerHTML = `"${randQuote}." - ${ranAuthor}... ${randDisclaimer}`
 }
