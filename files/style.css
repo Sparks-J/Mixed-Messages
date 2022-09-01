@@ -1,0 +1,17 @@
+html {
+    background-image: url('background-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-family: 'Courier New', Courier;
+    font-size: large;
+}
+
+body {
+    text-align: center;
+    font-size: larger;
+    font-weight: 550;
+}
